@@ -41,7 +41,7 @@
 					</div>
 				</article>
 				<article>
-					<img src="{% static 'images/selfie.jpg' %}" alt="" />
+					<img src="{% static 'images/selfie.png' %}" alt="" />
 					<div class="inner">
 						<header>
 							<p>Skincare, fashion, and <b>more</b></p>
@@ -76,7 +76,7 @@
 									</header>
 									<p align="center"> {{store.description}}</p>
 									<footer class="align-center">
-										<a href="#" class="button alt">View Products</a>
+										<a href="{% url 'details' store_slug=store.slug %}" class="button alt">View Products</a>
 									</footer>
 								</div>
 							</div>
