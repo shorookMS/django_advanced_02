@@ -9,4 +9,3 @@ class Store(models.Model):
         return self.name
 
 
-
